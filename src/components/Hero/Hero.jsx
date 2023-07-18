@@ -1,15 +1,15 @@
 import React from 'react';
-import whiteMan from "../../assets/whiteMan.png";
+import perry from "../../assets/perry.png";
 import "./hero.css";
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="hero_img">
-        <img src={whiteMan} alt="..."/>
+        <img src={perry} alt="..."/>
       </div>
       <div className="hero_content">
-          <h1>Hi I am Perry Coroma</h1>
+          <h1>I am Taiwo Oluwapelumi</h1>
           <h3>A Fullstack Developer</h3>
       </div>
     </div>

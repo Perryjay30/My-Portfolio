@@ -1,29 +1,22 @@
 import React from 'react';
 import "./projectone.css";
-import pix1 from "../../assets/pix1.png";
-import pix2 from "../../assets/pix2.png";
-import pix3 from "../../assets/pix3.png";
+import condueet from "../../assets/condueet.png";
+
 
 const ProjectOne = () => {
   return (
     <div className="project">
         <div className="project-content">
-            <h1>RBV FOOD</h1>
-            <h3>STACK: LARAVEL & FLUTTER</h3>
-            <h3>LINK: Food.royalbv.name.ng</h3>
+            <h1>CONDUEET TECHNOLOGIES LIMITED</h1>
+            <h3>STACK: SPRINGBOOT AND REACT</h3>
+            <h3>LINK: condueet.netlify.app</h3>
             <p>
-                RBV Food is a food delivery service
-                that allows you to order your
-                sweet delights from your favorite
-                restaurant while being in the comfort
-                of your space and have
-                them delivered straight to you.
+            Condueet is an open finance platform that distributes and filters 
+            financial data to third party businesses across Africa using consolidated APIs from banks.
             </p>
         </div>
         <div className="project-img">
-            <img src={pix1} alt="..."/>
-            <img src={pix2} alt="..."/>
-            <img src={pix3} alt="..."/>
+          <a href="https://condueet.netlify.app/" target="_blank"><img src={condueet} alt="..."/></a>
         </div>
     </div>
   )

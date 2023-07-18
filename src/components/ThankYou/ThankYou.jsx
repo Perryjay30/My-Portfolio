@@ -5,7 +5,7 @@ const ThankYou = () => {
   return (
     <div className="thank-you">
       <hr/>
-      <h1>THANKYOU</h1>
+      <h1>THANK YOU</h1>
     </div>
   )
 }

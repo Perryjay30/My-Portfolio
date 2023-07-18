@@ -7,14 +7,17 @@ const About = () => {
       <h1>ABOUT</h1>
       <div className="about-content">
        <p>
-          I am a Full Stack Developer with over 3 years of experience and counting. I have skills specialized in
-          PHP, Python, Flutter, Laravel Framework, HTML, CSS, Bootstrap, and SQL and I love being challenged
-          and learning new things in technology. I studied Telecommunication Engineering and hoped to focus
-          on Network Design and Management.
+       I am a highly motivated software engineer who gets along well with 
+       professionals of all ranks and in a variety of teams. I'm a talented 
+       and committed software engineer with a history of successfully 
+       completing projects that surpassed client requirements. 
       </p>
       <p>
-        I am a lover of anything in Technology, from the smallest to the largest tech in the world, I develop
-        myself skills when I am not occupied.
+       Also, I've demonstrated my ability to succeed in roles that require me to operate outside of my comfort zone,
+      challenge my thinking, support the organization's objectives, and ensure my long-term career 
+      advancement. I'm aiming to use my abilities to support a company's 
+      software development process. 
+
       </p>
       </div>
     </div>
