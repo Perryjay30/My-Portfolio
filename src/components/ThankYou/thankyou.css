@@ -1,0 +1,10 @@
+.thank-you{
+    background-color:#373545;
+    color:white;
+    text-align: center;
+    padding:8% 0%;
+}
+.thank-you hr{
+    width:50%;
+    margin:0 auto 3% auto;
+}

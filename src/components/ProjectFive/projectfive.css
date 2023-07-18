@@ -1,0 +1,43 @@
+.projectFive{
+    display:flex;
+    background-color:#373545;
+}
+.projectfive-content{
+    background-color:#373545;
+    color:white;
+    padding:3%;
+    width:25%;
+    border-right: 8px solid #9b66bc;
+}
+.projectfive-content p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.projectFive-img{
+    padding:1% 0%;
+    width:80%;
+    text-align: center;
+}
+.projectFive-img img{
+    width:50%;
+    padding-left: 2%;
+}
+
+@media screen and (max-width:768px){
+    .projectFive{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectfive-content{
+        text-align: center;
+        width:100%;
+        border-right:none;
+        padding:3% 0%;
+    }
+    .projectfive-img{
+        width:100%;
+    }
+    .projectFive-img img{
+        width:100%;
+    }
+}

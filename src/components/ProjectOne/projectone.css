@@ -1,0 +1,39 @@
+.project{
+    display:flex;
+    background-color:#373545;
+}
+.project-content{
+    background-color:#373545;
+    color:white;
+    padding:3%;
+    width:25%;
+    border-right: 8px solid #9b66bc;
+}
+.project-content p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.project-img{
+    padding:1% 0%;
+    width:80%;
+    text-align: center;
+}
+.project-img img{
+    width:25%;
+    padding-left: 2%;
+}
+
+@media screen and (max-width:768px){
+    .project{
+        flex-direction: column;
+    }
+    .project-content{
+        text-align: center;
+        width:100%;
+        border-right:none;
+        padding:3% 0%;
+    }
+    .project-img{
+        width:100%;
+    }
+}

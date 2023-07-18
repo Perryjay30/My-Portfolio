@@ -1,0 +1,30 @@
+.my_skills{
+    background-color:#373545;
+    color:white;
+    text-align: center;
+    padding:8% 0%;
+}
+.skills{
+    width:70%;
+    margin:0 auto;
+    padding-top: 5;
+}
+.skills p{
+    font-size: 16px;
+    font-weight: 600;
+    margin:2%;
+    flex-wrap: wrap;
+}
+.skill-content{
+    display:flex;
+    justify-content:center;
+}
+
+@media only screen and (max-width:768px){
+    .skills{
+        width:95%;
+    }
+    .skill-content{
+        flex-direction: column;
+    }
+}

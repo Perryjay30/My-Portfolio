@@ -1,0 +1,27 @@
+.about{
+    background-color:#373545;
+    color:white;
+    text-align: center;
+    padding:8% 0%;
+}
+.about-content{
+    width:60%;
+    margin:0 auto;
+    padding-top: 5;
+    text-align: left;
+}
+.about-content p{
+    padding-top: 2%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:768px){
+    .about-content{
+        width:92%;
+        text-align: center;
+    }
+    .about-content p{
+        font-weight: 300;
+    }
+}
